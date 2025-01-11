@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Dataset Visualizations</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="./script.js"></script> <!-- Link external JS file -->
+
+</head>
+<body>
+    <header>
+        <h1>Dataset Visualizations</h1>
+    </header>
+    <div class="container">
+        <!-- Dataset 1: Top Earners -->
+        <h3>1. Top 5 Earners in Dataset 1</h3>
+        <div>
+            <label for="companyFilter">Select a Company:</label>
+            <select id="companyFilter">
+                <!-- Options will be dynamically populated -->
+            </select>
+        </div>
+        <canvas id="topEarnersChart" width="800" height="400"></canvas>
+
+        <!-- Dataset 2: Revenue Contribution by Activity -->
+        <h3>2. Revenue Contribution by Activity (Pie Chart)</h3>
+        <canvas id="activityPieChart" width="600" height="400"></canvas>
+
+        <!-- Dataset 3: Revenue Trend -->
+        <h3>3. Revenue Trend Over Quarters (Line Chart)</h3>
+        <canvas id="revenueLineChart" width="600" height="400"></canvas>
+    </div>
+</body>
+</html>
