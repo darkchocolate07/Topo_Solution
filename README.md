@@ -5,6 +5,7 @@
 This project showcases the integration of Python and JavaScript to process, visualize, and manage data through a modular, scalable, and testable architecture. The solution is designed to handle datasets in various formats (JSON, CSV, PDF, and PPT) and includes functionality for backend API management and interactive data visualizations on the frontend.
 
 Key Components:
+
     1. Data Processing with Python:
         A Python module processes datasets using custom ingestion and processing pipelines.
         Datasets in different formats (JSON, CSV, PDF, and PPT) are ingested, normalized, and unified into a single JSON file.
